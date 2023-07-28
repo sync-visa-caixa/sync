@@ -38,3 +38,36 @@ class creditCardAPI {
         return httpClient::makeHttpRequest($url);
     }
 }
+
+class AccountApi {
+
+    public static function getAccounts() {
+        $url = 'http://localhost:8081/open-banking/accounts/v2/accounts';
+        return httpClient::makeHttpRequest($url);
+    }
+
+    public static function getAccount($accountId) {
+        $url = 'http://localhost:8081/open-banking/accounts/v2/accounts/' . $accountId;
+        return httpClient::makeHttpRequest($url);
+    }
+
+    public static function getAccountBalance($accountId) {
+        $url = 'http://localhost:8081/open-banking/accounts/v2/accounts/' . $accountId . '/balances';
+        return httpClient::makeHttpRequest($url);
+    }
+
+    public static function getAccountTransactions($accountId, $billId) {
+        $url = 'http://localhost:8081/open-banking/accounts/v2/accounts/' . $accountId . '/transactions';
+        return httpClient::makeHttpRequest($url);
+    }
+
+    public static function getAccountTransactionsCurrent($accountId) {
+        $url = 'http://localhost:8081/open-banking/accounts/v2/accounts/' . $accountId . '/transactions-current';
+        return httpClient::makeHttpRequest($url);
+    }
+
+    public static function getAccountLimits($accountId) {
+        $url = 'http://localhost:8081/open-banking/accounts/v2/accounts/' . $accountId . '/overdraft-limits';
+        return httpClient::makeHttpRequest($url);
+    }
+}
