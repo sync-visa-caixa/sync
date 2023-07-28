@@ -1,7 +1,7 @@
 <?php
 
 include_once 'httpClient.php';
-
+// Classe para obter informações do Cartão de Credito
 class creditCardAPI {
     public static function getCreditCardAccounts() {
         $url = 'http://localhost:8080/open-banking/credit-cards-accounts/v2/accounts';
@@ -38,8 +38,8 @@ class creditCardAPI {
         return httpClient::makeHttpRequest($url);
     }
 }
-
-class AccountApi {
+// Classe para obter informações da Conta 
+class accountApi {
 
     public static function getAccounts() {
         $url = 'http://localhost:8081/open-banking/accounts/v2/accounts';
