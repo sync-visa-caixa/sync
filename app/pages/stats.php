@@ -52,36 +52,14 @@
     <!-- loader section ends -->
 
     <!-- Sidebar main menu -->
-    <!-- Sidebar main menu -->
     <?php include('../menu.php');?>
-    <!-- Sidebar main menu ends -->
     <!-- Sidebar main menu ends -->
 
     <!-- Begin page -->
     <main class="h-100">
 
         <!-- Header -->
-        <header class="header position-fixed">
-            <div class="row">
-                <div class="col-auto">
-                    <a href="javascript:void(0)" target="_self" class="btn btn-light btn-44 menu-btn">
-                        <i class="bi bi-list"></i>
-                    </a>
-                </div>
-                <div class="col align-self-center text-center">
-                    <div class="logo-small">
-                        <img src="../assets/img/logo.png" alt="">
-                        <h5>SYNC</h5>
-                    </div>
-                </div>
-                <div class="col-auto">
-                    <a href="notifications" target="_self" class="btn btn-light btn-44">
-                        <i class="bi bi-bell"></i>
-                        <span class="count-indicator"></span>
-                    </a>
-                </div>
-            </div>
-        </header>
+        <?php include('../header.php');?>
         <!-- Header ends -->
 
         <!-- main page content -->
@@ -449,57 +427,6 @@
                     </div>
                 </div>
             </div>
-
-
-            <!-- Blogs -->
-            <div class="row mb-3">
-                <div class="col">
-                    <h6 class="title">News and Upcomming</h6>
-                </div>
-                <div class="col-auto align-self-center">
-                    <a href="blog" class="small">Read more</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-4">
-                    <a href="blog-details" class="card mb-3">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="h-190 shadow-sm rounded-10 coverimg mb-3">
-                                        <img src="../assets/img/news.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col align-self-center">
-                                    <p class="text-color-theme mb-1">Do share and Earn a lot</p>
-                                    <p class="text-muted small">Get $10 instant as reward while your friend or invited
-                                        member join FiMobile</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-4">
-                    <a href="blog-details" class="card mb-3">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="h-190 shadow-sm rounded-10 coverimg mb-3">
-                                        <img src="../assets/img/news1.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col align-self-center">
-                                    <p class="text-color-theme mb-1">Walmart news latest picks</p>
-                                    <p class="text-muted small">Get $10 instant as reward while your friend or invited
-                                        member join FiMobile</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
 
         </div>
         <!-- main page content ends -->

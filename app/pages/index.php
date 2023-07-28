@@ -57,27 +57,7 @@
     <main class="h-100">
 
         <!-- Header -->
-        <header class="header position-fixed">
-            <div class="row">
-                <div class="col-auto">
-                    <a href="javascript:void(0)" target="_self" class="btn btn-light btn-44 menu-btn">
-                        <i class="bi bi-list"></i>
-                    </a>
-                </div>
-                <div class="col align-self-center text-center">
-                    <div class="logo-small">
-                        <img src="../assets/img/logo.png" alt="">
-                        <h5>SYNC</h5>
-                    </div>
-                </div>
-                <div class="col-auto">
-                    <a href="notifications" target="_self" class="btn btn-light btn-44">
-                        <i class="bi bi-bell"></i>
-                        <span class="count-indicator"></span>
-                    </a>
-                </div>
-            </div>
-        </header>
+        <?php include('../header.php');?>
         <!-- Header ends -->
 
         <!-- main page content -->
@@ -92,40 +72,6 @@
                 <div class="col align-self-center ps-0">
                     <h4 class="text-color-theme"><span class="fw-normal">Hi</span>, Maxartkiller</h4>
                     <p class="text-muted">Good Morning</p>
-                </div>
-            </div>
-
-            <!-- money request received -->
-            <div class="row mb-4 hideonprogress">
-                <div class="col-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-auto">
-                                    <div class="avatar avatar-44 shadow-sm rounded-10">
-                                        <img src="../assets/img/user3.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col align-self-center ps-0">
-                                    <p class="small mb-1"><a href="profile" class="fw-medium">Shelvey</a> <span class="text-muted">requested money</span></p>
-                                    <p>150 <span class="text-muted">$</span> <small class="text-muted">1 min ago</small>
-                                    </p>
-                                </div>
-                                <div class="col-auto">
-                                    <button class="btn btn-44 btn-default shadow-sm">
-                                        <i class="bi bi-arrow-up-right-circle"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mx-0">
-                            <div class="col-12">
-                                <div class="progress bg-none h-2 hideonprogressbar" data-target="hideonprogress">
-                                    <div class="progress-bar bg-theme" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -214,111 +160,6 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- connection -->
-            <div class="row mb-3">
-                <div class="col">
-                    <h6 class="title">Connections</h6>
-                </div>
-                <div class="col-auto">
-                    <a href="userlist" class="small">View all</a>
-                </div>
-            </div>
-            <div class="row mb-3">
-                <div class="col-12 px-0">
-                    <!-- swiper users connections -->
-                    <div class="swiper-container connectionwiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <a href="profile" class="card text-center">
-                                    <div class="card-body">
-                                        <figure class="avatar avatar-50 shadow-sm mb-1 rounded-10">
-                                            <img src="../assets/img/user4.jpg" alt="">
-                                        </figure>
-                                        <p class="text-color-theme size-12 small">Nicolas</p>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <a href="profile" class="card text-center">
-                                    <div class="card-body">
-                                        <figure class="avatar avatar-50 shadow-sm mb-1 rounded-10">
-                                            <img src="../assets/img/user2.jpg" alt="">
-                                        </figure>
-                                        <p class="text-color-theme size-12 small">Shelvey</p>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <a href="profile" class="card text-center">
-                                    <div class="card-body">
-                                        <figure class="avatar avatar-50 shadow-sm mb-1 rounded-10">
-                                            <img src="../assets/img/user3.jpg" alt="">
-                                        </figure>
-                                        <p class="text-color-theme size-12 small">Amenda</p>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <a href="profile" class="card text-center">
-                                    <div class="card-body">
-                                        <figure class="avatar avatar-50 shadow-sm mb-1 rounded-10">
-                                            <img src="../assets/img/user1.jpg" alt="">
-                                        </figure>
-                                        <p class="text-color-theme size-12 small">RXL15</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="profile" class="card text-center">
-                                    <div class="card-body">
-                                        <figure class="avatar avatar-50 shadow-sm mb-1 rounded-10">
-                                            <img src="../assets/img/user4.jpg" alt="">
-                                        </figure>
-                                        <p class="text-color-theme size-12 small">Nicolas</p>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <a href="profile" class="card text-center">
-                                    <div class="card-body">
-                                        <figure class="avatar avatar-50 shadow-sm mb-1 rounded-10">
-                                            <img src="../assets/img/user2.jpg" alt="">
-                                        </figure>
-                                        <p class="text-color-theme size-12 small">Shelvey</p>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <a href="profile" class="card text-center">
-                                    <div class="card-body">
-                                        <figure class="avatar avatar-50 shadow-sm mb-1 rounded-10">
-                                            <img src="../assets/img/user3.jpg" alt="">
-                                        </figure>
-                                        <p class="text-color-theme size-12 small">Amenda</p>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <a href="profile" class="card text-center">
-                                    <div class="card-body">
-                                        <figure class="avatar avatar-50 shadow-sm mb-1 rounded-10">
-                                            <img src="../assets/img/user1.jpg" alt="">
-                                        </figure>
-                                        <p class="text-color-theme size-12 small">RXL15</p>
-                                    </div>
-                                </a>
                             </div>
                         </div>
                     </div>
@@ -530,71 +371,6 @@
                             </div>
                         </li>
                     </ul>
-                </div>
-            </div>
-
-            <!-- Blogs -->
-            <div class="row mb-3">
-                <div class="col">
-                    <h6 class="title">News and Upcomming</h6>
-                </div>
-                <div class="col-auto align-self-center">
-                    <a href="blog" class="small">Read more</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-4">
-                    <a href="blog-details" class="card mb-3">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-auto">
-                                    <div class="avatar avatar-60 shadow-sm rounded-10 coverimg">
-                                        <img src="../assets/img/news.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col align-self-center ps-0">
-                                    <p class="text-color-theme mb-1">Do share and Earn a lot</p>                                   
-                                    <p class="text-muted size-12">Get $10 instant as reward while your friend or invited member join FiMobile</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                
-                <div class="col-12 col-md-6 col-lg-4">
-                    <a href="blog-details" class="card mb-3">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-auto">
-                                    <div class="avatar avatar-60 shadow-sm rounded-10 coverimg">
-                                        <img src="../assets/img/news1.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col align-self-center ps-0">
-                                    <p class="text-color-theme mb-1">Walmart news latest picks</p>                                   
-                                    <p class="text-muted size-12">Get $10 instant as reward while your friend or invited member join FiMobile</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                
-                <div class="col-12 col-md-6 col-lg-4">
-                    <a href="blog-details" class="card mb-3">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-auto">
-                                    <div class="avatar avatar-60 shadow-sm rounded-10 coverimg">
-                                        <img src="../assets/img/news2.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col align-self-center ps-0">
-                                    <p class="text-color-theme mb-1">Do share and Help us</p>                                   
-                                    <p class="text-muted size-12">Get $10 instant as reward while your friend or invited member join FiMobile</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
                 </div>
             </div>
 
