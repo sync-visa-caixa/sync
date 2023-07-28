@@ -483,8 +483,8 @@ components:
         amount:
           type: string
           format: double
-          pattern: '^-?\d{1,15}\.\d{2,4}$'
-          maxLength: 21
+          pattern: '^([1-9][0-9]{3})\.\d{2}$'
+          maxLength: 5
           minLength: 4
           example: '1000.0400'
           description: Valor relacionado ao objeto.
