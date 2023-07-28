@@ -92,7 +92,7 @@
                             <div class="volume"></div>
                             <div class="switch"></div>
                             <div class="wrap-phone">
-                                <iframe class="frame" src="../app/pages/splash"></iframe>
+                                <iframe class="frame" src="../app/pages/landing"></iframe>
                             </div>
                         </div>
                         <div class="box-right">

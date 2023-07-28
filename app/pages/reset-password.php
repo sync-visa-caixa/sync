@@ -40,7 +40,7 @@
                 <div class="loader-cube-wrap loader-cube-animate mx-auto">
                     <img src="../assets/img/logo.png" alt="Logo">
                 </div>
-                <p class="mt-4">It's time for track budget<br><strong>Please wait...</strong></p>
+                <p class="mt-4">SYNC<br><strong>Suas Finanças...</strong></p>
             </div>
         </div>
     </div>
@@ -58,7 +58,7 @@
                         <div class="col">
                             <div class="logo-small">
                                 <img src="../assets/img/logo.png" alt="">
-                                <h5>FiMobile</h5>
+                                <h5>SYNC</h5>
                             </div>
                         </div>
                         <div class="col-auto">

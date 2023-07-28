@@ -43,143 +43,14 @@
                 <div class="loader-cube-wrap loader-cube-animate mx-auto">
                     <img src="../assets/img/logo.png" alt="Logo">
                 </div>
-                <p class="mt-4">It's time for track budget<br><strong>Please wait...</strong></p>
+                <p class="mt-4">SYNC<br><strong>Suas Finanças...</strong></p>
             </div>
         </div>
     </div>
     <!-- loader section ends -->
 
     <!-- Sidebar main menu -->
-    <div class="sidebar-wrap  sidebar-pushcontent">
-        <!-- Add overlay or fullmenu instead overlay -->
-        <div class="closemenu text-muted">Close Menu</div>
-        <div class="sidebar dark-bg">
-            <!-- user information -->
-            <div class="row my-3">
-                <div class="col-12 ">
-                    <div class="card shadow-sm bg-opac text-white border-0">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-auto">
-                                    <figure class="avatar avatar-44 rounded-15">
-                                        <img src="../assets/img/user1.jpg" alt="">
-                                    </figure>
-                                </div>
-                                <div class="col px-0 align-self-center">
-                                    <p class="mb-1">Maxartkiller</p>
-                                    <p class="text-muted size-12">New York City, US</p>
-                                </div>
-                                <div class="col-auto">
-                                    <button class="btn btn-44 btn-light">
-                                        <i class="bi bi-box-arrow-right"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card bg-opac text-white border-0">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <h1 class="display-4">100.00</h1>
-                                    </div>
-                                    <div class="col-auto">
-                                        <p class="text-muted">Wallet Balance</p>
-                                    </div>
-                                    <div class="col text-end">
-                                        <p class="text-muted"><a href="addmoney">+ Top up</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- user emnu navigation -->
-            <div class="row">
-                <div class="col-12">
-                    <ul class="nav nav-pills">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index">
-                                <div class="avatar avatar-40 rounded icon"><i class="bi bi-house-door"></i></div>
-                                <div class="col">Dashboard</div>
-                                <div class="arrow"><i class="bi bi-chevron-right"></i></div>
-                            </a>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
-                                <div class="avatar avatar-40 rounded icon"><i class="bi bi-person"></i></div>
-                                <div class="col">Account</div>
-                                <div class="arrow"><i class="bi bi-plus plus"></i> <i class="bi bi-dash minus"></i>
-                                </div>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item nav-link" href="profile">
-                                        <div class="avatar avatar-40 rounded icon"><i class="bi bi-calendar2"></i></div>
-                                        <div class="col">Profile</div>
-                                        <div class="arrow"><i class="bi bi-chevron-right"></i></div>
-                                    </a></li>
-                                <li><a class="dropdown-item nav-link" href="settings">
-                                        <div class="avatar avatar-40 rounded icon"><i class="bi bi-calendar-check"></i>
-                                        </div>
-                                        <div class="col">Settings</div>
-                                        <div class="arrow"><i class="bi bi-chevron-right"></i></div>
-                                    </a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="chat" tabindex="-1">
-                                <div class="avatar avatar-40 rounded icon"><i class="bi bi-chat-text"></i></div>
-                                <div class="col">Messages</div>
-                                <div class="arrow"><i class="bi bi-chevron-right"></i></div>
-                            </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="notifications" tabindex="-1">
-                                <div class="avatar avatar-40 rounded icon"><i class="bi bi-bell"></i></div>
-                                <div class="col">Notification</div>
-                                <div class="arrow"><i class="bi bi-chevron-right"></i></div>
-                            </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="blog" tabindex="-1">
-                                <div class="avatar avatar-40 rounded icon"><i class="bi bi-newspaper"></i></div>
-                                <div class="col">Blogs</div>
-                                <div class="arrow"><i class="bi bi-chevron-right"></i></div>
-                            </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="style" tabindex="-1">
-                                <div class="avatar avatar-40 rounded icon"><i class="bi bi-palette"></i></div>
-                                <div class="col">Style <i class="bi bi-star-fill text-warning small"></i></div>
-                                <div class="arrow"><i class="bi bi-chevron-right"></i></div>
-                            </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="pages" tabindex="-1">
-                                <div class="avatar avatar-40 rounded icon"><i class="bi bi-file-earmark-text"></i></div>
-                                <div class="col">Pages <span class="badge bg-info fw-light">new</span></div>
-                                <div class="arrow"><i class="bi bi-chevron-right"></i></div>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="signin" tabindex="-1">
-                                <div class="avatar avatar-40 rounded icon"><i class="bi bi-box-arrow-right"></i></div>
-                                <div class="col">Logout</div>
-                                <div class="arrow"><i class="bi bi-chevron-right"></i></div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php include('../menu.php');?>
     <!-- Sidebar main menu ends -->
 
     <!-- Begin page -->
@@ -196,7 +67,7 @@
                 <div class="col align-self-center text-center">
                     <div class="logo-small">
                         <img src="../assets/img/logo.png" alt="">
-                        <h5>FiMobile</h5>
+                        <h5>SYNC</h5>
                     </div>
                 </div>
                 <div class="col-auto">
@@ -800,27 +671,6 @@
     </footer>
     <!-- Footer ends-->
 
-    <!-- PWA app install toast message -->
-    <div class="position-fixed bottom-0 start-50 translate-middle-x  z-index-10">
-        <div class="toast mb-3" role="alert" aria-live="assertive" aria-atomic="true" id="toastinstall" data-bs-animation="true">
-            <div class="toast-header">
-                <img src="../assets/img/favicon32.png" class="rounded me-2" alt="...">
-                <strong class="me-auto">Install PWA App</strong>
-                <small>now</small>
-                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-            </div>
-            <div class="toast-body">
-                <div class="row">
-                    <div class="col">
-                        Click "Install" to install PWA app & experience indepedent.
-                    </div>
-                    <div class="col-auto align-self-center ps-0">
-                        <button class="btn-default btn btn-sm" id="addtohome">Install</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- Required jquery and libraries -->
     <script src="../assets/js/jquery-3.3.1.min.js"></script>
