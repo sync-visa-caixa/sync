@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="generator" content="">
-    <title>FiMobile V2.0 - Mobile HTML template</title>
+    <title>SYNC - Você conectado ao seu dinheiro</title>
 
     <!-- manifest meta -->
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -155,7 +155,7 @@
                                         </div>
                                         <div class="row mb-3">
                                             <div class="col-auto align-self-center">
-                                                <img src="../assets/img/masterocard.png" alt="">
+                                                <img src="../assets/img/visacard.png" alt="">
                                             </div>
                                             <div class="col align-self-center text-end">
                                                 <p class="small">
@@ -186,7 +186,7 @@
                                         </div>
                                         <div class="row mb-3">
                                             <div class="col-auto align-self-center">
-                                                <img src="../assets/img/masterocard.png" alt="">
+                                                <img src="../assets/img/visacard.png" alt="">
                                             </div>
                                             <div class="col align-self-center text-end">
                                                 <p class="small">
