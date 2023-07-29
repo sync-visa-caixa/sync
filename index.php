@@ -1,16 +1,10 @@
 <!DOCTYPE html>
-<!--[if IE 8]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
-<!--<![endif]-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR">
+
 
 <head>
-  <!-- Basic Page Needs -->
-  <!--[if IE
-      ]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"
-    /><![endif]-->
 
-  <title>Alipay TF</title>
+  <title>Sync</title>
 
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -49,39 +43,30 @@
                                 <img src="../assets/images/logo.png" alt="images">
                             </div>
                             <h4>
-                                Alipay
+                                Sync
                                 
                             </h4>
                         </div>
-                        <h3>E-Wallet App HTML Template</h3>
+                        <h3>Você conectado ao seu dinheiro</h3>
                     </div>
                     
                     
                     <ul class="tf-listing">
-                        <li>PWA Ready</li>
-                        <li>Sass</li>
-                        <li>70+ Pages</li>
-                        <li>Reusable Components</li>
-                        <li>Free Updates</li>
-                        <li>Bootstrap ready</li>
-                        <li>Easy to Edit</li>
-                        <li>User Friendly Design</li>
+                        <li>Contas Bancárias</li>
+                        <li>Saldos</li>
+                        <li>Extratos</li>
+                        <li>Cartões de Crédito</li>
+                        <li>Limites</li>
+                        <li>Faturas</li>
+                        <li>Programa de Recompensas</li>
+                        <li>E muito mais</li>
                     </ul>
-                    <div class="group-btn">
-                        <a target="_blank" href="..../../user/themesflat/portfolio.html" class="tf-btn-success">
-                            <i class="icon-market"></i>
-                            Buy Now
-                        </a>
-                        <a target="_blank" href="..alipay-app-pwa/index-1.htm" class="tf-btn-success outline">
-                            Click To View
-                        </a>
-                    </div>
                     <div class="scan-qr hide">
                         <div class="scan">
                             <img src="../assets/images/qrcode.png">
                         </div>
                         <p>
-                            Scan to view on <br> your mobile device
+                            ESCANEIE PARA ACESSAR O PROJETO NO GITHUB E SABER MAIS
                         </p>
                     </div>
                     
@@ -101,17 +86,8 @@
                                     <img src="../assets/images/qrcode.png">
                                 </div>
                                 <p>
-                                    Scan to view on <br> your mobile device
+                                ESCANEIE PARA ACESSAR O PROJETO NO GITHUB E SABER MAIS
                                 </p>
-                            </div>
-                            <div class="pt-5">
-                                <a target="_blank" href="..../../user/themesflat/portfolio.html" class="btn-portfolio">THEMESFLAT <img src="../assets/images/logo-portfolio.png" alt="image"></a>
-                            </div>
-                            <div class="pt-5">
-                                <h5>View Demo</h5>
-                                <svg width="39" height="54" viewbox="0 0 39 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0.72696 46.5276C0.376188 46.9542 0.437646 47.5844 0.864233 47.9351L7.81587 53.6513C8.24246 54.0021 8.87263 53.9406 9.22341 53.514C9.57418 53.0874 9.51272 52.4573 9.08613 52.1065L2.9069 47.0254L7.98795 40.8462C8.33872 40.4196 8.27726 39.7894 7.85068 39.4387C7.42409 39.0879 6.79391 39.1494 6.44314 39.5759L0.72696 46.5276ZM34.5296 0.920219C38.2312 14.4931 36.8489 25.069 31.2366 32.5775C25.6108 40.104 15.5593 44.7867 1.4023 46.1674L1.59643 48.158C16.0482 46.7485 26.7441 41.9285 32.8386 33.7748C38.9465 25.6031 40.2573 14.3213 36.4591 0.394L34.5296 0.920219Z" fill="#FFB321"></path>
-                                  </svg>
                             </div>
                         </div>
                         

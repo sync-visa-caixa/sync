@@ -1,5 +1,5 @@
 ﻿<!doctype html>
-<html lang="en" class="h-100">
+<html lang="pt-br" class="h-100">
 
 <head>
     <meta charset="utf-8">
@@ -49,7 +49,7 @@
 
     <!-- Begin page content -->
     <main class="container-fluid h-100">
-        <a href="signin" class="skipbtn">Skip</a>
+        <a href="signin" class="skipbtn">Pular</a>
 
         <!-- Swiper -->
         <div class="swiper-container introswiper">
@@ -62,10 +62,8 @@
                                     <img src="../assets/img/intro1.png" alt="" class="mw-100 mx-auto mb-5">
                                 </div>
                                 <div class="col-ld-6">
-                                    <h1 class="text-color-theme mb-4">Keep your eye on your budget</h1>
-                                    <p class="size-18 text-muted">Manage your daily expenses & track your incomes with
-                                        easy
-                                        steps.</p>
+                                    <h1 class="text-color-theme mb-4">Controle seu dinheiro em um só lugar</h1>
+                                    <p class="size-18 text-muted">Faça uma gestão mais consciente e prática</p>
                                 </div>
                             </div>
                         </div>
@@ -79,9 +77,8 @@
                                     <img src="../assets/img/intro2.png" alt="" class="mw-100 mx-auto mb-5">
                                 </div>
                                 <div class="col-ld-6">
-                                    <h1 class="text-color-theme mb-4">Never feel low balance </h1>
-                                    <p class="size-18 text-muted">Best tracking & Future investment gives idea about
-                                        expenses risk.</p>
+                                    <h1 class="text-color-theme mb-4">Evite imprevistos sabendo tudo sobre seus cartões de crédito </h1>
+                                    <p class="size-18 text-muted">Acompanhe limites e faturas unificados para melhorar sua gestão</p>
                                 </div>
                             </div>
                         </div>
@@ -95,9 +92,8 @@
                                     <img src="../assets/img/intro3.png" alt="" class="mw-100 mx-auto mb-5">
                                 </div>
                                 <div class="col-ld-6">
-                                    <h1 class="text-color-theme mb-4">Ask for money in emergency </h1>
-                                    <p class="size-18 text-muted">If you really get tie, Its simple to ask for help
-                                        & support from contacts.</p>
+                                    <h1 class="text-color-theme mb-4">Trace metas de acordo com seus interesses </h1>
+                                    <p class="size-18 text-muted">Programe suas metas e cuide do seu dinheiro para alcança-las mais rápido</p>
                                 </div>
                             </div>
                         </div>

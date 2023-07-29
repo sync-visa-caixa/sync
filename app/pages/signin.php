@@ -40,7 +40,7 @@
                 <div class="loader-cube-wrap loader-cube-animate mx-auto">
                     <img src="../assets/img/logo.png" alt="Logo">
                 </div>
-                <p class="mt-4">SYNC<br><strong>Suas Finanças...</strong></p>
+                <p class="mt-4">SYNC<br><strong>Você no controle das suas finanças </strong></p>
             </div>
         </div>
     </div>
@@ -64,47 +64,35 @@
                 </header>
             </div>
             <div class="col-10 col-md-6 col-lg-5 col-xl-3 mx-auto align-self-center text-center py-4">
-                <h1 class="mb-4 text-color-theme">Sign in</h1>
+                <h1 class="mb-4 text-color-theme">Login</h1>
                 <form class="was-validated needs-validation" novalidate="">
                     <div class="form-group form-floating mb-3 is-valid">
-                        <input type="text" class="form-control" value="maxartkiller" id="email" placeholder="Username">
-                        <label class="form-control-label" for="email">Username</label>
+                        <input type="text" class="form-control" value="" id="email" placeholder="Username">
+                        <label class="form-control-label" for="email">Usuário</label>
                     </div>
 
                     <div class="form-group form-floating is-invalid mb-3">
                         <input type="password" class="form-control " id="password" placeholder="Password">
-                        <label class="form-control-label" for="password">Password</label>
+                        <label class="form-control-label" for="password">Senha</label>
                         <button type="button" class="text-danger tooltip-btn" data-bs-toggle="tooltip" data-bs-placement="left" title="Enter valid Password" id="passworderror">
                             <i class="bi bi-info-circle"></i>
                         </button>
                     </div>
                     <p class="mb-3 text-center">
                         <a href="forgot-password" class="">
-                            Forgot your password?
+                            Esqueceu sua senha?
                         </a>
                     </p>
 
                     <button type="button" class="btn btn-lg btn-default w-100 mb-4 shadow" onclick="window.location.replace('index');">
-                        Sign in
+                        Login
                     </button>
                 </form>
-                <p class="mb-2 text-muted">Don't have account?</p>
+                <p class="mb-2 text-muted">Não tem conta?</p>
                 <a href="signup" target="_self" class="">
-                    Sign up <i class="bi bi-arrow-right"></i>
+                    Criar <i class="bi bi-arrow-right"></i>
                 </a>
 
-            </div>
-            <div class="col-12 text-center mt-auto">
-                <div class="row justify-content-center footer-info">
-                    <div class="col-auto">
-                        <p class="text-muted">Or you can continue with </p>
-                    </div>
-                    <div class="col-auto ps-0">
-                        <a href="#" class="p-1"><i class="bi bi-twitter"></i></a>
-                        <a href="#" class="p-1"><i class="bi bi-google"></i></a>
-                        <a href="#" class="p-1"><i class="bi bi-facebook"></i></a>
-                    </div>
-                </div>
             </div>
         </div>
     </main>
