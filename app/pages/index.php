@@ -1,4 +1,7 @@
-﻿<!doctype html>
+﻿<?php
+include_once('../api/mockUser.php');
+?>
+<!doctype html>
 <html lang="en">
 
 <head>
@@ -7,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="generator" content="">
-    <title>FiMobile V2.0 - Mobile HTML template</title>
+    <title>SYNC - Você conectado ao seu dinheiro</title>
 
     <!-- manifest meta -->
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -66,12 +69,12 @@
             <div class="row mb-4">
                 <div class="col-auto">
                     <div class="avatar avatar-50 shadow rounded-10">
-                        <img src="../assets/img/user1.jpg" alt="">
+                        <img src="../assets/img/user2.jpg" alt="">
                     </div>
                 </div>
                 <div class="col align-self-center ps-0">
-                    <h4 class="text-color-theme"><span class="fw-normal">Hi</span>, Maxartkiller</h4>
-                    <p class="text-muted">Good Morning</p>
+                    <h4 class="text-color-theme"><span class="fw-normal">Oi</span>, Rita</h4>
+                    <p class="text-muted">Bom Dia</p>
                 </div>
             </div>
 
@@ -80,87 +83,35 @@
                 <div class="col-12 px-0">
                     <div class="swiper-container cardswiper">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div class="row mb-3">
-                                            <div class="col-auto align-self-center">
-                                                <img src="../assets/img/masterocard.png" alt="">
+                            <?php foreach ($_SESSION['creditCardData'] as $creditCard) { ?>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="row mb-3">
+                                                <div class="col-auto align-self-center">
+                                                    <img src="../assets/img/visacard.png" alt="">
+                                                </div>
+                                                <div class="col align-self-center text-end">
+                                                    <p class="small">
+                                                        <span class="text-uppercase size-10">Vencimento</span><br>
+                                                        <span class="text-muted"><?= $creditCard['dueDate'] ?></span>
+                                                    </p>
+                                                </div>
                                             </div>
-                                            <div class="col align-self-center text-end">
-                                                <p class="small">
-                                                    <span class="text-uppercase size-10">Validity</span><br>
-                                                    <span class="text-muted">09/24</span>
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <h4 class="fw-normal mb-2">
-                                                    150540.00
-                                                    <span class="small text-muted">USD</span>
-                                                </h4>
-                                                <p class="mb-0 text-muted size-12">10141 0021 0001 0154</p>
-                                                <p class="text-muted size-12">Debit Card</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card dark-bg">
-                                    <div class="card-body">
-                                        <div class="row mb-3">
-                                            <div class="col-auto align-self-center">
-                                                <img src="../assets/img/masterocard.png" alt="">
-                                            </div>
-                                            <div class="col align-self-center text-end">
-                                                <p class="small">
-                                                    <span class="text-uppercase size-10">Validity</span><br>
-                                                    <span class="text-muted">06/25</span>
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <h4 class="fw-normal mb-2">
-                                                    56040.00
-                                                    <span class="small text-muted">USD</span>
-                                                </h4>
-                                                <p class="mb-0 text-muted size-12">10141 0021 0001 0154</p>
-                                                <p class="text-muted size-12">Debit Card</p>
+                                            <div class="row">   
+                                                <div class="col-12">
+                                                    <h4 class="fw-normal mb-2">
+                                                        <?= $creditCard['availableAmount'] ?>
+                                                        <span class="small text-muted"><?= $currency ?></span>
+                                                    </h4>
+                                                    <p class="mb-0 text-muted size-12">XXXX XXXX XXXX <?= $creditCard['identificationNumber'] ?></p>
+                                                    <p class="text-muted size-12">Fatura atual:  <?= $creditCard['billTotalAmount'] ?> </p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card theme-radial-gradient border-0">
-                                    <div class="card-body">
-                                        <div class="row mb-3">
-                                            <div class="col-auto align-self-center">
-                                                <i class="bi bi-wallet2"></i> Wallet
-                                            </div>
-                                            <div class="col align-self-center text-end">
-                                                <p class="small">
-                                                    <span class="text-uppercase size-10">Validity</span><br>
-                                                    <span class="text-muted">Unlimited</span>
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <h4 class="fw-normal mb-2">
-                                                    100.00
-                                                    <span class="small text-muted">USD</span>
-                                                </h4>
-                                                <p class="mb-0 text-muted size-12">10141 0021 0001 0154</p>
-                                                <p class="text-muted size-12">Debit Card</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <?php } ?>
                         </div>
                     </div>
                 </div>
@@ -389,7 +340,7 @@
                     <a class="nav-link active" href="index">
                         <span>
                             <i class="nav-icon bi bi-house"></i>
-                            <span class="nav-text">Home</span>
+                            <span class="nav-text">Inicio</span>
                         </span>
                     </a>
                 </li>
@@ -397,7 +348,7 @@
                     <a class="nav-link" href="stats">
                         <span>
                             <i class="nav-icon bi bi-laptop"></i>
-                            <span class="nav-text">Statistics</span>
+                            <span class="nav-text">Meta</span>
                         </span>
                     </a>
                 </li>
@@ -409,19 +360,19 @@
                         </span>
                         <div class="nav-menu-popover justify-content-between">
                             <button type="button" class="btn btn-lg btn-icon-text" onclick="window.location.replace('pay');">
-                                <i class="bi bi-credit-card size-32"></i><span>Pay</span>
+                                <i class="bi bi-credit-card size-32"></i><span>Pagar</span>
                             </button>
 
                             <button type="button" class="btn btn-lg btn-icon-text" onclick="window.location.replace('sendmoney');">
-                                <i class="bi bi-arrow-up-right-circle size-32"></i><span>Send</span>
+                                <i class="bi bi-arrow-up-right-circle size-32"></i><span>Enviar</span>
                             </button>
 
                             <button type="button" class="btn btn-lg btn-icon-text" onclick="window.location.replace('bills');">
-                                <i class="bi bi-receipt size-32"></i><span>Bills</span>
+                                <i class="bi bi-receipt size-32"></i><span>Contas</span>
                             </button>
 
                             <button type="button" class="btn btn-lg btn-icon-text" onclick="window.location.replace('receivemoney');">
-                                <i class="bi bi-arrow-down-left-circle size-32"></i><span>Receive</span>
+                                <i class="bi bi-arrow-down-left-circle size-32"></i><span>Receber</span>
                             </button>
                         </div>
                     </div>
@@ -430,7 +381,7 @@
                     <a class="nav-link" href="rewards">
                         <span>
                             <i class="nav-icon bi bi-gift"></i>
-                            <span class="nav-text">Rewards</span>
+                            <span class="nav-text">Recompensas</span>
                         </span>
                     </a>
                 </li>
@@ -438,7 +389,7 @@
                     <a class="nav-link" href="wallet">
                         <span>
                             <i class="nav-icon bi bi-wallet2"></i>
-                            <span class="nav-text">Wallet</span>
+                            <span class="nav-text">Carteira</span>
                         </span>
                     </a>
                 </li>
