@@ -42,7 +42,7 @@ Para instalação do projeto será necessário configurar o Docker e Apache para
 
 ### Material
 - Vídeo Pitch: https://youtu.be/sPa2szcjd60
-- Vídeo Demo:
+- Vídeo Demo: https://youtu.be/cK-ucWGHtJc
 - Slides do Pitch: https://www.canva.com/design/DAFpyitMHPA/PNBru8ILEwLm6fxCoEdNVw/edit?utm_content=DAFpyitMHPA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 Para maiores informações, entrar em contato com a equipe desenvolvedora através do Linkedin
