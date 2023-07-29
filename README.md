@@ -41,9 +41,9 @@ Objetivo: Apresentar integração de contas e cartões de vários bancos em um �
 Para instalação do projeto será necessário configurar o Docker e Apache para perfeito funcionamento. Os dados podem ser consumidos diretamente do opencard.yml, disponível neste repositório.
 
 ### Material
-Vídeo Pitch:
-Vídeo Demo:
-Slides do Pitch: https://www.canva.com/design/DAFpyitMHPA/PNBru8ILEwLm6fxCoEdNVw/edit?utm_content=DAFpyitMHPA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+- Vídeo Pitch:
+- Vídeo Demo:
+- Slides do Pitch: https://www.canva.com/design/DAFpyitMHPA/PNBru8ILEwLm6fxCoEdNVw/edit?utm_content=DAFpyitMHPA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 Para maiores informações, entrar em contato com a equipe desenvolvedora através do Linkedin
 - Jaqueline Queroz: https://www.linkedin.com/in/jaquelinequeroz/
