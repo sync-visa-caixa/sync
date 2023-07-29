@@ -63,76 +63,36 @@
         <!-- main page content -->
         <div class="main-container container">
             <!-- summary blocks -->
-            <div class="row">
-                <div class="col-12 px-0">
-                    <div class="swiper-container summayswiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="card shadow-sm mb-2">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-auto">
-                                                <div class="avatar avatar-40 bg-warning text-white shadow-sm rounded-10">
-                                                    <i class="bi bi-star"></i>
-                                                </div>
-                                            </div>
-                                            <div class="col px-0">
-                                                <p class="text-muted size-12 mb-0">Bonus Points</p>
-                                                <p>48546 pts</p>
-                                            </div>
-                                        </div>
+            <div class="row mb-3">
+                <div class="col-6 col-md-4">
+                    <div class="card shadow-sm mb-2">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-auto px-0">
+                                    <div class="avatar avatar-40 bg-warning text-white shadow-sm rounded-10-end">
+                                        <i class="bi bi-star"></i>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card shadow-sm mb-2">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-auto">
-                                                <div class="avatar avatar-40 bg-success text-white shadow-sm rounded-10">
-                                                    <i class="bi bi-cash-stack"></i>
-                                                </div>
-                                            </div>
-                                            <div class="col px-0">
-                                                <p class="text-muted size-12 mb-0">Cashback</p>
-                                                <p>15 USD</p>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="col">
+                                    <p class="text-muted size-12 mb-0">Pontos</p>
+                                    <p>48546 pts</p>
                                 </div>
                             </div>
-                            <div class="swiper-slide">
-                                <div class="card shadow-sm mb-2">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-auto">
-                                                <div class="avatar avatar-40 bg-primary text-white shadow-sm rounded-10">
-                                                    <i class="bi bi-controller"></i>
-                                                </div>
-                                            </div>
-                                            <div class="col px-0">
-                                                <p class="text-muted size-12 mb-0">Gameplay</p>
-                                                <p>105 coins</p>
-                                            </div>
-                                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="card shadow-sm mb-2">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-auto px-0">
+                                    <div class="avatar avatar-40 bg-success text-white shadow-sm rounded-10-end">
+                                        <i class="bi bi-cash-stack"></i>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card shadow-sm mb-2">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-auto">
-                                                <div class="avatar avatar-40 bg-info text-white shadow-sm rounded-10">
-                                                    <i class="bi bi-droplet"></i>
-                                                </div>
-                                            </div>
-                                            <div class="col px-0">
-                                                <p class="text-muted size-12 mb-0">Fuel</p>
-                                                <p>3 ltr</p>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="col">
+                                    <p class="text-muted size-12 mb-0">Cashback</p>
+                                    <p>15 BRL</p>
                                 </div>
                             </div>
                         </div>
@@ -143,219 +103,26 @@
             <!-- offers banner-->
             <div class="row mb-4">
                 <div class="col-12">
-                    <div class="card theme-bg text-white text-center">
+                    <div class="card theme-bg text-center">
                         <div class="card-body">
                             <div class="row">
-                                <div class="col align-self-center pe-0">
-                                    <h1>5% OFF</h1>
+                                <div class="col align-self-center">
+                                    <h1>ATÉ 15% OFF</h1>
                                     <p class="size-12 text-muted">
-                                        Just use coupon code while transaction & get cashback of 5% maximum 5 USD
+                                        Cumpra suas metas e ganhe descontos na próxima fatura
                                     </p>
                                     <div class="tag border-dashed border-opac">
-                                        BILLPAY5OFF
+                                        DESCPAG15OFF
                                     </div>
                                 </div>
-                                <div class="col-6 align-self-center px-0">
+                                <div class="col-6 align-self-center ps-0">
                                     <img src="../assets/img/offergraphics.png" alt="" class="mw-100">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <!-- service provider -->
-            <div class="row mb-3">
-                <div class="col">
-                    <h6 class="title">Popular service provider</h6>
-                </div>
-            </div>
-            <div class="row mb-3">
-                <div class="col-12 px-0">
-                    <!-- swiper users connections -->
-                    <div class="swiper-container connectionwiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="card text-center">
-                                    <div class="card-body">
-                                        <div class="avatar avatar-50 shadow-sm mb-2 rounded-10 theme-bg text-white">
-                                            <img src="../assets/img/company2-50.png" alt="" class="">
-                                        </div>
-                                        <p class="text-color-theme size-12 small mb-1">Flat 20%</p>
-                                        <div class="tag bg-warning border-warning text-white p-1">50 pts</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card text-center">
-                                    <div class="card-body">
-                                        <div class="avatar avatar-50 shadow-sm mb-2 rounded-10 theme-bg text-white">
-                                            <img src="../assets/img/company5.png" alt="" class="">
-                                        </div>
-                                        <p class="text-color-theme size-12 small mb-1">20% Off</p>
-                                        <div class="tag bg-warning border-warning text-white p-1">100 pts</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card text-center">
-                                    <div class="card-body">
-                                        <div class="avatar avatar-50 shadow-sm mb-2 rounded-10 theme-bg text-white">
-                                            <img src="../assets/img/company3.jpg" alt="" class="">
-                                        </div>
-                                        <p class="text-color-theme size-12 small mb-1">25% Off</p>
-                                        <div class="tag bg-warning border-warning text-white p-1">250 pts</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card text-center">
-                                    <div class="card-body">
-                                        <div class="avatar avatar-50 shadow-sm mb-2 rounded-10 theme-bg text-white">
-                                            <img src="../assets/img/company4.jpg" alt="" class="">
-                                        </div>
-                                        <p class="text-color-theme size-12 small mb-1">10% Off</p>
-                                        <div class="tag bg-warning border-warning text-white p-1">50 pts</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card text-center">
-                                    <div class="card-body">
-                                        <div class="avatar avatar-50 shadow-sm mb-2 rounded-10 theme-bg text-white">
-                                            <img src="../assets/img/company2-50.png" alt="" class="">
-                                        </div>
-                                        <p class="text-color-theme size-12 small mb-1">Flat 20%</p>
-                                        <div class="tag bg-warning border-warning text-white p-1">50 pts</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card text-center">
-                                    <div class="card-body">
-                                        <div class="avatar avatar-50 shadow-sm mb-2 rounded-10 theme-bg text-white">
-                                            <img src="../assets/img/company5.png" alt="" class="">
-                                        </div>
-                                        <p class="text-color-theme size-12 small mb-1">20% Off</p>
-                                        <div class="tag bg-warning border-warning text-white p-1">100 pts</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card text-center">
-                                    <div class="card-body">
-                                        <div class="avatar avatar-50 shadow-sm mb-2 rounded-10 theme-bg text-white">
-                                            <img src="../assets/img/company3.jpg" alt="" class="">
-                                        </div>
-                                        <p class="text-color-theme size-12 small mb-1">25% Off</p>
-                                        <div class="tag bg-warning border-warning text-white p-1">250 pts</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card text-center">
-                                    <div class="card-body">
-                                        <div class="avatar avatar-50 shadow-sm mb-2 rounded-10 theme-bg text-white">
-                                            <img src="../assets/img/company4.jpg" alt="" class="">
-                                        </div>
-                                        <p class="text-color-theme size-12 small mb-1">10% Off</p>
-                                        <div class="tag bg-warning border-warning text-white p-1">50 pts</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <!-- large discount block-->
-            <div class="row mb-1 justify-content-center">
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <div class="row mb-3">
-                                <div class="col-auto align-self-center">
-                                    <div class="avatar avatar-40 bg-warning text-white shadow-sm rounded-10">
-                                        <img src="../assets/img/company2-50.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="col align-self-center ps-0">
-                                    <p class="mb-0 text-color-theme">20<small>% Off</small></p>
-                                    <div class="tag bg-warning border-warning text-white py-1 px-2">50 pts</div>
-                                </div>
-                            </div>
-                            <p class="size-12">
-                                <span class="text-muted">minimum spend 1220 USD and maximum discount 240 USD</span>
-                                <a href="">view details</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <div class="row mb-3">
-                                <div class="col-auto align-self-center">
-                                    <div class="avatar avatar-40 bg-warning text-white shadow-sm rounded-10">
-                                        <img src="../assets/img/company4.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col align-self-center ps-0">
-                                    <p class="mb-0 text-color-theme">60<small>% Off</small></p>
-                                    <div class="tag bg-warning border-warning text-white py-1 px-2">100 pts</div>
-                                </div>
-                            </div>
-                            <p class="size-12">
-                                <span class="text-muted">minimum spend 4520 USD and maximum discount 600 USD</span>
-                                <a href="">view details</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <div class="row mb-3">
-                                <div class="col-auto align-self-center">
-                                    <div class="avatar avatar-40 bg-warning text-white shadow-sm rounded-10">
-                                        <img src="../assets/img/company2-50.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="col align-self-center ps-0">
-                                    <p class="mb-0 text-color-theme">17<small>% Off</small></p>
-                                    <div class="tag bg-warning border-warning text-white py-1 px-2">250 pts</div>
-                                </div>
-                            </div>
-                            <p class="size-12">
-                                <span class="text-muted">minimum spend 1220 USD and maximum discount 480 USD</span>
-                                <a href="">view details</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <div class="row mb-3">
-                                <div class="col-auto align-self-center">
-                                    <div class="avatar avatar-40 bg-warning text-white shadow-sm rounded-10">
-                                        <img src="../assets/img/company3.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col align-self-center ps-0">
-                                    <p class="mb-0 text-color-theme">55<small>% Off</small></p>
-                                    <div class="tag bg-warning border-warning text-white py-1 px-2">150 pts</div>
-                                </div>
-                            </div>
-                            <p class="size-12">
-                                <span class="text-muted">minimum spend 4520 USD and maximum discount 680 USD</span>
-                                <a href="">view details</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </div>  ''
 
         </div>
         <!-- main page content ends -->

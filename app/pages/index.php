@@ -178,7 +178,7 @@ include_once('../api/mockUser.php');
                                     </div>
                                 </div>
                                 <div class="col-auto align-self-center ps-0">
-                                    <p class="small mb-1 text-muted">USA Trip</p>
+                                    <p class="small mb-1 text-muted">Viagem</p>
                                     <p>60<span class="small">%</span></p>
                                 </div>
                             </div>
@@ -198,7 +198,7 @@ include_once('../api/mockUser.php');
                                     </div>
                                 </div>
                                 <div class="col-auto align-self-center ps-0">
-                                    <p class="small mb-1 text-muted">Car loan</p>
+                                    <p class="small mb-1 text-muted">Carro</p>
                                     <p>85<span class="small">%</span></p>
                                 </div>
                             </div>
@@ -217,12 +217,12 @@ include_once('../api/mockUser.php');
                                 <div class="col align-self-center ps-0">
                                     <div class="row mb-2">
                                         <div class="col">
-                                            <p class="small text-muted mb-0">Home Loan</p>
+                                            <p class="small text-muted mb-0">Quitar Casa</p>
                                             <p>3510.00 $</p>
                                         </div>
                                         <div class="col-auto text-end">
-                                            <p class="small text-muted mb-0">Next EMI</p>
-                                            <p class="small">1 Aug 2024</p>
+                                            <p class="small text-muted mb-0">Próximo pagamento</p>
+                                            <p class="small">01 ago 2023</p>
                                         </div>
                                     </div>
 
@@ -239,11 +239,11 @@ include_once('../api/mockUser.php');
             <!-- Transactions -->
             <div class="row mb-3">
                 <div class="col">
-                    <h6 class="title">Transactions<br><small class="fw-normal text-muted">Today, 24 Aug 2021</small>
+                    <h6 class="title">Transações<br><small class="fw-normal text-muted">Hoje, 29 jul 2023</small>
                     </h6>
                 </div>
                 <div class="col-auto align-self-center">
-                    <a href="transactions" class="small">View all</a>
+                    <a href="transactions" class="small">Ver tudo</a>
                 </div>
             </div>
             <div class="row mb-4">
@@ -258,11 +258,11 @@ include_once('../api/mockUser.php');
                                 </div>
                                 <div class="col align-self-center ps-0">
                                     <p class="text-color-theme mb-0">Zomato</p>                                   
-                                    <p class="text-muted size-12">Food</p>
+                                    <p class="text-muted size-12">Comida</p>
                                 </div>                                
                                 <div class="col align-self-center text-end">
                                     <p class="mb-0">-25.00</p>                                   
-                                    <p class="text-muted size-12">Debit Card 4545</p>
+                                    <p class="text-muted size-12">Crédito Final 4545</p>
                                 </div>
                             </div>
                         </li>
@@ -276,11 +276,11 @@ include_once('../api/mockUser.php');
                                 </div>
                                 <div class="col align-self-center ps-0">
                                     <p class="text-color-theme mb-0">Uber</p>                                   
-                                    <p class="text-muted size-12">Travel</p>
+                                    <p class="text-muted size-12">Transporte</p>
                                 </div>                                
                                 <div class="col align-self-center text-end">
                                     <p class="mb-0">-26.00</p>                                   
-                                    <p class="text-muted size-12">Debit Card 4545</p>
+                                    <p class="text-muted size-12">Crédito Final 4545</p>
                                 </div>
                             </div>
                         </li>
@@ -294,11 +294,11 @@ include_once('../api/mockUser.php');
                                 </div>
                                 <div class="col align-self-center ps-0">
                                     <p class="text-color-theme mb-0">Starbucks</p>                                   
-                                    <p class="text-muted size-12">Food</p>
+                                    <p class="text-muted size-12">Comida</p>
                                 </div>                                
                                 <div class="col align-self-center text-end">
                                     <p class="mb-0">-18.00</p>                                   
-                                    <p class="text-muted size-12">Cash</p>
+                                    <p class="text-muted size-12">Débito Final 5500</p>
                                 </div>
                             </div>
                         </li>
@@ -312,11 +312,11 @@ include_once('../api/mockUser.php');
                                 </div>
                                 <div class="col align-self-center ps-0">
                                     <p class="text-color-theme mb-0">Walmart</p>                                   
-                                    <p class="text-muted size-12">Clothing</p>
+                                    <p class="text-muted size-12">Outros</p>
                                 </div>                                
                                 <div class="col align-self-center text-end">
                                     <p class="mb-0">-105.00</p>                                   
-                                    <p class="text-muted size-12">Wallet</p>
+                                    <p class="text-muted size-12">Débito Final 5500 </p>
                                 </div>
                             </div>
                         </li>
