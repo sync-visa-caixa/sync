@@ -46,7 +46,7 @@ include_once('../api/mockUser.php');
                 <div class="loader-cube-wrap loader-cube-animate mx-auto">
                     <img src="../assets/img/logo.png" alt="Logo">
                 </div>
-                <p class="mt-4">SYNC<br><strong>Suas Finanças...</strong></p>
+                <p class="mt-4">SYNC<br><strong>Você no controle</strong></p>
             </div>
         </div>
     </div>
@@ -124,12 +124,12 @@ include_once('../api/mockUser.php');
                         <div class="card-body">
                             <div class="row">
                                 <div class="col align-self-center">
-                                    <h1>15% OFF</h1>
+                                    <h1>ATÉ 15% OFF</h1>
                                     <p class="size-12 text-muted">
-                                        On every bill pay, launch offer get 5% Extra
+                                        Cumpra suas metas e ganhe descontos na próxima fatura
                                     </p>
                                     <div class="tag border-dashed border-opac">
-                                        BILLPAY15OFF
+                                        DESCPAG15OFF
                                     </div>
                                 </div>
                                 <div class="col-6 align-self-center ps-0">
@@ -148,8 +148,7 @@ include_once('../api/mockUser.php');
                         <div class="card-body">
                             <div class="form-check form-switch">
                                 <input class="form-check-input" type="checkbox" id="darkmodeswitch">
-                                <label class="form-check-label text-muted px-2 " for="darkmodeswitch">Activate Dark
-                                    Mode</label>
+                                <label class="form-check-label text-muted px-2 " for="darkmodeswitch">Ativar modo dark</label>
                             </div>
                         </div>
                     </div>
@@ -159,7 +158,7 @@ include_once('../api/mockUser.php');
             <!-- Saving targets -->
             <div class="row mb-3">
                 <div class="col">
-                    <h6 class="title">Saving Targets</h6>
+                    <h6 class="title">Metas Salvas</h6>
                 </div>
                 <div class="col-auto">
 
