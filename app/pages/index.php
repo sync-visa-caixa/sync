@@ -85,7 +85,7 @@ include_once('../api/mockUser.php');
                         <div class="swiper-wrapper">
                             <?php foreach ($_SESSION['creditCardData'] as $creditCard) { ?>
                                 <div class="swiper-slide">
-                                    <div class="card">
+                                    <div class="card dark-bg">
                                         <div class="card-body">
                                             <div class="row mb-3">
                                                 <div class="col-auto align-self-center">
