@@ -1,6 +1,4 @@
 <div class="sidebar-wrap  sidebar-pushcontent">
-        <!-- Add overlay or fullmenu instead overlay -->
-        <div class="closemenu text-muted">Close Menu</div>
         <div class="sidebar dark-bg">
             <!-- user information -->
             <div class="row my-3">
@@ -48,7 +46,7 @@
                         </li>
                         
                         <li class="nav-item">
-                            <a class="nav-link" href="timeline" tabindex="-1">
+                            <a class="nav-link" href="stats" tabindex="-1">
                                 <div class="avatar avatar-40 rounded icon"><i class="bi bi-chat-text"></i></div>
                                 <div class="col">Metas</div>
                                 <div class="arrow"><i class="bi bi-chevron-right"></i></div>
